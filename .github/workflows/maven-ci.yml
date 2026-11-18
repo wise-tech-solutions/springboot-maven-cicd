@@ -29,8 +29,8 @@ jobs:
           java-version: '17'
           cache: maven
 
-      - name: Build and Test Application
-        run: ./mvnw clean verify
+      - name: Grant Execute Permission to Maven Wrapper
+        run: chmod +x mvnw
 
       - name: Build and Test Application
         run: ./mvnw clean verify
