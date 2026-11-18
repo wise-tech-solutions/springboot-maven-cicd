@@ -31,3 +31,6 @@ jobs:
 
       - name: Build and Test Application
         run: ./mvnw clean verify
+
+      - name: Build and Test Application
+        run: ./mvnw clean verify
